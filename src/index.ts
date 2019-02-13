@@ -9,10 +9,10 @@ const coffeeMachineConfigurations = [
     incomming: 'tele/Kaffeemaschine/ENERGY',
     outgoing: 'coffee/0/state'
   },
-  {
-    incomming: 'tele/Maschine-17/ENERGY',
-    outgoing: 'coffee/1/state'
-  },
+  // {
+  //   incomming: 'tele/Maschine-17/ENERGY',
+  //   outgoing: 'coffee/0/state'
+  // },
 ];
 
 console.log("Coffee state machine is starting");
